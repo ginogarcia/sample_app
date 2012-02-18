@@ -80,6 +80,7 @@ GEM
       polyglot
       polyglot (>= 0.3.1)
     tzinfo (0.3.31)
+    web-app-theme (0.7.0)
     webrat (0.7.1)
       nokogiri (>= 1.2.0)
       rack (>= 1.0)
@@ -92,4 +93,5 @@ DEPENDENCIES
   rails (= 3.0.4)
   rspec-rails (= 2.6.1)
   sqlite3
+  web-app-theme (>= 0.6.2)
   webrat (= 0.7.1)
