@@ -114,6 +114,9 @@ describe User do
   end
   
   describe "has_password? method" do
+    before(:each) do
+      @user = User.create!(@attr)
+   end
     it 'should exist' do
        @user.should respond_to(:has_password?)
     end
