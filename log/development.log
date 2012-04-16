@@ -218,3 +218,55 @@ Rendered layouts/_header.html.erb (1.2ms)
 Rendered layouts/_footer.html.erb (0.7ms)
 Rendered users/show.html.erb within layouts/application (8.4ms)
 Completed 200 OK in 35ms (Views: 12.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-15 21:27:13 -0500
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (0.9ms)
+Rendered layouts/_header.html.erb (0.9ms)
+Rendered layouts/_footer.html.erb (0.8ms)
+Rendered pages/home.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 12ms (Views: 11.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2012-04-15 21:27:19 -0500
+  Processing by UsersController#new as HTML
+Rendered shared/_error_messages.html.erb (0.5ms)
+Rendered layouts/_stylesheets.html.erb (0.9ms)
+Rendered layouts/_header.html.erb (1.0ms)
+Rendered layouts/_footer.html.erb (0.7ms)
+Rendered users/new.html.erb within layouts/application (66.7ms)
+Completed 200 OK in 113ms (Views: 70.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2012-04-15 21:32:17 -0500
+  Processing by UsersController#new as HTML
+Rendered shared/_error_messages.html.erb (0.5ms)
+Rendered layouts/_stylesheets.html.erb (0.9ms)
+Rendered layouts/_header.html.erb (1.1ms)
+Rendered layouts/_footer.html.erb (0.7ms)
+Rendered users/new.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 33ms (Views: 19.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signin" for 127.0.0.1 at 2012-04-15 21:32:20 -0500
+  Processing by SessionsController#new as HTML
+Rendered layouts/_stylesheets.html.erb (6.9ms)
+Rendered layouts/_header.html.erb (1.2ms)
+Rendered layouts/_footer.html.erb (0.7ms)
+Rendered sessions/new.html.erb within layouts/application (14.6ms)
+Completed 200 OK in 19ms (Views: 18.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2012-04-15 21:49:17 -0500
+  Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"I7sgpiuE3/Kv7eIbTnwKFg96fGTCibFRUP6Xsff/4Jc=", "session"=>{"email"=>"Ginogarcia@netzero.net", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'Ginogarcia@netzero.net' LIMIT 1
+Completed   in 101ms
+
+NoMethodError (undefined method `sign_in' for #<SessionsController:0xa8352d4>):
+  app/controllers/sessions_controller.rb:15:in `create'
+
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.0ms)
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.0ms)

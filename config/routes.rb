@@ -12,7 +12,7 @@ SampleApp::Application.routes.draw do
   match '/breed',       :to => 'demos#breed'
   
   match '/signin',       :to => 'sessions#new'
-  match '/signout',     :to => 'sessions#destroy'
+  match '/signout',      :to => 'sessions#destroy'
  
   # The priority is based upon order of creation:
   # first created -> highest priority.
