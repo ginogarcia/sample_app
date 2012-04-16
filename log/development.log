@@ -270,3 +270,404 @@ NoMethodError (undefined method `sign_in' for #<SessionsController:0xa8352d4>):
 Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
 Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.0ms)
 Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-16 16:34:21 -0500
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (3.1ms)
+Rendered layouts/_header.html.erb (42.2ms)
+Rendered pages/home.html.erb within layouts/application (49.0ms)
+Completed   in 58ms
+
+ActionView::Template::Error (undefined method `model_name' for NilClass:Class):
+    4:       <ul>
+    5: 	<li><%= link_to "Home", root_path %></li>
+    6: 	<% if signed_in? %>
+    7: 	     <li><%= link_to "Profile", current_user %></li>
+    8: 	<% end %>
+    9: 	<li><%= link_to "Help", help_path %></li>
+    10: 	<% if signed_in? %>
+  app/views/layouts/_header.html.erb:7:in `_app_views_layouts__header_html_erb__231499215_87833680_245408698'
+  app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb___974944773_88216650__130748585'
+
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.2ms)
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-16 16:37:04 -0500
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (1.0ms)
+Rendered layouts/_header.html.erb (1.3ms)
+Rendered pages/home.html.erb within layouts/application (5.5ms)
+Completed   in 11ms
+
+ActionView::Template::Error (undefined method `model_name' for NilClass:Class):
+    4:       <ul>
+    5: 	<li><%= link_to "Home", root_path %></li>
+    6: 	<% if signed_in? %>
+    7: 	     <li><%= link_to "Profile", current_user %></li>
+    8: 	<% end %>
+    9: 	<li><%= link_to "Help", help_path %></li>
+    10: 	<% if signed_in? %>
+  app/views/layouts/_header.html.erb:7:in `_app_views_layouts__header_html_erb__231499215_82715620_245408698'
+  app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb___974944773_84226330__130748585'
+
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-16 16:37:16 -0500
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (1.1ms)
+Rendered layouts/_header.html.erb (1.6ms)
+Rendered pages/home.html.erb within layouts/application (6.8ms)
+Completed   in 12ms
+
+ActionView::Template::Error (undefined method `model_name' for NilClass:Class):
+    4:       <ul>
+    5: 	<li><%= link_to "Home", root_path %></li>
+    6: 	<% if signed_in? %>
+    7: 	     <li><%= link_to "Profile", current_user %></li>
+    8: 	<% end %>
+    9: 	<li><%= link_to "Help", help_path %></li>
+    10: 	<% if signed_in? %>
+  app/views/layouts/_header.html.erb:7:in `_app_views_layouts__header_html_erb__231499215_90865580_245408698'
+  app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb___974944773_91001860__130748585'
+
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-16 16:40:52 -0500
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (0.9ms)
+Rendered layouts/_header.html.erb (1.3ms)
+Rendered pages/home.html.erb within layouts/application (5.4ms)
+Completed   in 9ms
+
+ActionView::Template::Error (undefined method `model_name' for NilClass:Class):
+    4:       <ul>
+    5: 	<li><%= link_to "Home", root_path %></li>
+    6: 	<!--<% if signed_in? %>
+    7: 	     <li><%= link_to "Profile", current_user %></li>
+    8: 	<% end %>-->
+    9: 	<li><%= link_to "Help", help_path %></li>
+    10: 	<% if signed_in? %>
+  app/views/layouts/_header.html.erb:7:in `_app_views_layouts__header_html_erb__231499215_90986040_245408698'
+  app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb___974944773_91043260__130748585'
+
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.9ms)
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-16 16:41:12 -0500
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (3.8ms)
+Rendered layouts/_header.html.erb (2.2ms)
+Rendered pages/home.html.erb within layouts/application (12.4ms)
+Completed   in 16ms
+
+ActionView::Template::Error (wrong number of arguments(0 for 1)):
+    6: 	
+    7: 	<li><%= link_to "Help", help_path %></li>
+    8: 	<% if signed_in? %>
+    9: 	    <li> <%= link_to "sign out", signout_path, method => :delete %> </li>
+    10: 	<% else %>
+    11: 	    <li><%= link_to "Sign in", signin_path %></li>
+    12: 	<% end %>
+  app/views/layouts/_header.html.erb:9:in `method'
+  app/views/layouts/_header.html.erb:9:in `_app_views_layouts__header_html_erb__231499215_89313900_245408698'
+  app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb___974944773_89554330__130748585'
+
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.2ms)
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-16 16:42:48 -0500
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (0.9ms)
+Rendered layouts/_header.html.erb (1.3ms)
+Rendered pages/home.html.erb within layouts/application (5.5ms)
+Completed   in 10ms
+
+ActionView::Template::Error (wrong number of arguments(0 for 1)):
+    6: 	
+    7: 	<li><%= link_to "Help", help_path %></li>
+    8: 	<% if signed_in? %>
+    9: 	    <li> <%= link_to "Sign out", signout_path, method => :delete %> </li>
+    10: 	<% else %>
+    11: 	    <li><%= link_to "Sign in", signin_path %></li>
+    12: 	<% end %>
+  app/views/layouts/_header.html.erb:9:in `method'
+  app/views/layouts/_header.html.erb:9:in `_app_views_layouts__header_html_erb__231499215_82559180_245408698'
+  app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb___974944773_83658030__130748585'
+
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.9ms)
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-16 16:49:03 -0500
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (1.0ms)
+ERROR: compiling _app_views_layouts__header_html_erb__231499215_91003620_245408698 RAISED /home/student/rails_projects/tutorial/sample_app/app/views/layouts/_header.html.erb:9: syntax error, unexpected ',', expecting ')'
+....append= ( link_to ("Sign out", signout_path, method => :del...
+...                               ^
+/home/student/rails_projects/tutorial/sample_app/app/views/layouts/_header.html.erb:9: syntax error, unexpected tASSOC, expecting '='
+...n out", signout_path, method => :delete) );@output_buffer.sa...
+...                               ^
+/home/student/rails_projects/tutorial/sample_app/app/views/layouts/_header.html.erb:9: syntax error, unexpected ')', expecting keyword_end
+...nout_path, method => :delete) );@output_buffer.safe_concat('...
+...                               ^
+Function body:           def _app_views_layouts__header_html_erb__231499215_91003620_245408698(local_assigns)
+            _old_virtual_path, @_virtual_path = @_virtual_path, "layouts/_header";_old_output_buffer = @output_buffer;header = local_assigns[:header];;@output_buffer = ActionView::OutputBuffer.new;@output_buffer.safe_concat('<header>
+  ');@output_buffer.append= ( link_to logo,  root_path );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('    <nav class="round">
+      <ul>
+	<li>');@output_buffer.append= ( link_to "Home", root_path );@output_buffer.safe_concat('</li>
+	
+	<li>');@output_buffer.append= ( link_to "Help", help_path );@output_buffer.safe_concat('</li>
+');	 if signed_in? 
+@output_buffer.safe_concat('	    <li> ');@output_buffer.append= ( link_to ("Sign out", signout_path, method => :delete) );@output_buffer.safe_concat(' </li>
+');	 else 
+@output_buffer.safe_concat('	    <li>');@output_buffer.append= ( link_to "Sign in", signin_path );@output_buffer.safe_concat('</li>
+');	 end 
+@output_buffer.safe_concat('     </ul>
+  </nav>
+</header>
+');@output_buffer.to_s
+          ensure
+            @_virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+Backtrace: /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_view/template.rb:255:in `module_eval'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_view/template.rb:255:in `compile'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_view/template.rb:134:in `block in render'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/activesupport-3.0.4/lib/active_support/notifications.rb:54:in `instrument'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_view/template.rb:127:in `render'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_view/render/partials.rb:333:in `render_partial'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_view/render/partials.rb:262:in `block in render'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/activesupport-3.0.4/lib/active_support/notifications.rb:52:in `block in instrument'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/activesupport-3.0.4/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/activesupport-3.0.4/lib/active_support/notifications.rb:52:in `instrument'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_view/render/partials.rb:260:in `render'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_view/render/partials.rb:378:in `_render_partial'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_view/render/rendering.rb:31:in `render'
+/home/student/rails_projects/tutorial/sample_app/app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb___974944773_91120000__130748585'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_view/template.rb:135:in `block in render'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/activesupport-3.0.4/lib/active_support/notifications.rb:54:in `instrument'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_view/template.rb:127:in `render'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_view/render/layouts.rb:80:in `_render_layout'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_view/render/rendering.rb:62:in `block in _render_template'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/activesupport-3.0.4/lib/active_support/notifications.rb:52:in `block in instrument'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/activesupport-3.0.4/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/activesupport-3.0.4/lib/active_support/notifications.rb:52:in `instrument'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_view/render/rendering.rb:56:in `_render_template'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_view/render/rendering.rb:26:in `render'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/abstract_controller/rendering.rb:115:in `_render_template'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/abstract_controller/rendering.rb:109:in `render_to_body'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_controller/metal/renderers.rb:47:in `render_to_body'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_controller/metal/compatibility.rb:55:in `render_to_body'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/abstract_controller/rendering.rb:102:in `render_to_string'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/abstract_controller/rendering.rb:93:in `render'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_controller/metal/rendering.rb:17:in `render'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/activesupport-3.0.4/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/home/student/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/benchmark.rb:310:in `realtime'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/activesupport-3.0.4/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/activerecord-3.0.4/lib/active_record/railties/controller_runtime.rb:15:in `cleanup_view_runtime'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/abstract_controller/base.rb:150:in `process_action'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_controller/metal/rendering.rb:11:in `process_action'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/activesupport-3.0.4/lib/active_support/callbacks.rb:435:in `_run__1043145254__process_action__828331601__callbacks'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/activesupport-3.0.4/lib/active_support/callbacks.rb:409:in `_run_process_action_callbacks'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/activesupport-3.0.4/lib/active_support/callbacks.rb:93:in `run_callbacks'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/activesupport-3.0.4/lib/active_support/notifications.rb:52:in `block in instrument'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/activesupport-3.0.4/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/activesupport-3.0.4/lib/active_support/notifications.rb:52:in `instrument'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_controller/metal/rescue.rb:17:in `process_action'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/abstract_controller/base.rb:119:in `process'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/abstract_controller/rendering.rb:41:in `process'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_controller/metal.rb:138:in `dispatch'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_controller/metal.rb:178:in `block in action'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/routing/route_set.rb:62:in `call'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/routing/route_set.rb:62:in `dispatch'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/routing/route_set.rb:27:in `call'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/rack-mount-0.6.14/lib/rack/mount/route_set.rb:148:in `block in call'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/rack-mount-0.6.14/lib/rack/mount/code_generation.rb:93:in `block in recognize'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/rack-mount-0.6.14/lib/rack/mount/code_generation.rb:103:in `optimized_each'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/rack-mount-0.6.14/lib/rack/mount/code_generation.rb:92:in `recognize'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/rack-mount-0.6.14/lib/rack/mount/route_set.rb:139:in `call'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/routing/route_set.rb:492:in `call'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/head.rb:14:in `call'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/rack-1.2.5/lib/rack/methodoverride.rb:24:in `call'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/flash.rb:182:in `call'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/session/abstract_store.rb:149:in `call'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/cookies.rb:302:in `call'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/activerecord-3.0.4/lib/active_record/query_cache.rb:32:in `block in call'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/activerecord-3.0.4/lib/active_record/connection_adapters/abstract/query_cache.rb:28:in `cache'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/activerecord-3.0.4/lib/active_record/query_cache.rb:12:in `cache'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/activerecord-3.0.4/lib/active_record/query_cache.rb:31:in `call'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/activerecord-3.0.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:354:in `call'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/callbacks.rb:46:in `block in call'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/activesupport-3.0.4/lib/active_support/callbacks.rb:415:in `_run_call_callbacks'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/callbacks.rb:44:in `call'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/rack-1.2.5/lib/rack/sendfile.rb:106:in `call'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/show_exceptions.rb:47:in `call'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/railties-3.0.4/lib/rails/rack/logger.rb:13:in `call'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/rack-1.2.5/lib/rack/runtime.rb:17:in `call'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/activesupport-3.0.4/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/rack-1.2.5/lib/rack/lock.rb:13:in `block in call'
+<internal:prelude>:10:in `synchronize'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/rack-1.2.5/lib/rack/lock.rb:13:in `call'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/static.rb:30:in `call'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/railties-3.0.4/lib/rails/application.rb:168:in `call'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/railties-3.0.4/lib/rails/application.rb:77:in `method_missing'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/railties-3.0.4/lib/rails/rack/log_tailer.rb:14:in `call'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/rack-1.2.5/lib/rack/content_length.rb:13:in `call'
+/home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/rack-1.2.5/lib/rack/handler/webrick.rb:52:in `service'
+/home/student/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+/home/student/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+/home/student/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+Rendered layouts/_header.html.erb (1.4ms)
+Rendered pages/home.html.erb within layouts/application (6.8ms)
+Completed   in 11ms
+
+ActionView::Template::Error (/home/student/rails_projects/tutorial/sample_app/app/views/layouts/_header.html.erb:9: syntax error, unexpected ',', expecting ')'
+....append= ( link_to ("Sign out", signout_path, method => :del...
+...                               ^
+/home/student/rails_projects/tutorial/sample_app/app/views/layouts/_header.html.erb:9: syntax error, unexpected tASSOC, expecting '='
+...n out", signout_path, method => :delete) );@output_buffer.sa...
+...                               ^
+/home/student/rails_projects/tutorial/sample_app/app/views/layouts/_header.html.erb:9: syntax error, unexpected ')', expecting keyword_end
+...nout_path, method => :delete) );@output_buffer.safe_concat('...
+...                               ^):
+    6: 	
+    7: 	<li><%= link_to "Help", help_path %></li>
+    8: 	<% if signed_in? %>
+    9: 	    <li> <%= link_to ("Sign out", signout_path, method => :delete) %> </li>
+    10: 	<% else %>
+    11: 	    <li><%= link_to "Sign in", signin_path %></li>
+    12: 	<% end %>
+  app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb___974944773_91120000__130748585'
+
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-16 16:49:25 -0500
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (1.0ms)
+Rendered layouts/_header.html.erb (1.4ms)
+Rendered pages/home.html.erb within layouts/application (6.0ms)
+Completed   in 11ms
+
+ActionView::Template::Error (wrong number of arguments(0 for 1)):
+    6: 	
+    7: 	<li><%= link_to "Help", help_path %></li>
+    8: 	<% if signed_in? %>
+    9: 	    <li> <%= link_to("Sign out", signout_path, method => :delete) %> </li>
+    10: 	<% else %>
+    11: 	    <li><%= link_to "Sign in", signin_path %></li>
+    12: 	<% end %>
+  app/views/layouts/_header.html.erb:9:in `method'
+  app/views/layouts/_header.html.erb:9:in `_app_views_layouts__header_html_erb__231499215_89653260_245408698'
+  app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb___974944773_89865050__130748585'
+
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.3ms)
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-16 16:50:24 -0500
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (0.9ms)
+Rendered layouts/_header.html.erb (1.0ms)
+Rendered layouts/_footer.html.erb (0.9ms)
+Rendered pages/home.html.erb within layouts/application (33.1ms)
+Completed 200 OK in 38ms (Views: 37.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2012-04-16 16:50:37 -0500
+  Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mSQL (0.7ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+Rendered layouts/_stylesheets.html.erb (0.9ms)
+Rendered layouts/_header.html.erb (1.0ms)
+Rendered layouts/_footer.html.erb (0.7ms)
+Rendered users/show.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 111ms (Views: 11.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/signin" for 127.0.0.1 at 2012-04-16 16:50:53 -0500
+  Processing by SessionsController#new as HTML
+Rendered layouts/_stylesheets.html.erb (0.9ms)
+Rendered layouts/_header.html.erb (1.0ms)
+Rendered layouts/_footer.html.erb (0.7ms)
+Rendered sessions/new.html.erb within layouts/application (60.4ms)
+Completed 200 OK in 65ms (Views: 64.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2012-04-16 16:51:00 -0500
+  Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"I7sgpiuE3/Kv7eIbTnwKFg96fGTCibFRUP6Xsff/4Jc=", "session"=>{"email"=>"Ginogarcia@netzero.net", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'Ginogarcia@netzero.net' LIMIT 1[0m
+Redirected to http://localhost:3000/users/1
+Completed 302 Found in 118ms
+
+
+Started GET "/users/1" for 127.0.0.1 at 2012-04-16 16:51:01 -0500
+  Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+Rendered layouts/_stylesheets.html.erb (0.9ms)
+Rendered layouts/_header.html.erb (1.3ms)
+Rendered layouts/_footer.html.erb (0.8ms)
+Rendered users/show.html.erb within layouts/application (11.2ms)
+Completed 200 OK in 39ms (Views: 15.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2012-04-16 16:52:29 -0500
+  Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Rendered layouts/_stylesheets.html.erb (1.0ms)
+Rendered layouts/_header.html.erb (6.6ms)
+Rendered users/show.html.erb within layouts/application (23.5ms)
+Completed   in 93ms
+
+ActionView::Template::Error (undefined method `model_name' for Fixnum:Class):
+    4:       <ul>
+    5: 	<li><%= link_to "Home", root_path %></li>
+    6: 	<% if signed_in? %>
+    7: 	     <li><%= link_to "Profile", current_user %></li>
+    8: 	<% end %>
+    9: 	<li><%= link_to "Help", help_path %></li>
+    10: 	<% if signed_in? %>
+  app/views/layouts/_header.html.erb:7:in `_app_views_layouts__header_html_erb__231499215_91288580_245408698'
+  app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb___974944773_91465320__130748585'
+
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.6ms)
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.0ms)
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.5ms)
