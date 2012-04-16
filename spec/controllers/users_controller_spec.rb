@@ -3,7 +3,7 @@ require 'spec_helper'
 describe UsersController do
     render_views
   
-      describe "GET 'show'" do
+        describe "GET 'show'" do
         
           before(:each) do
             @user = Factory(:user)
@@ -40,7 +40,7 @@ describe UsersController do
           end
       end
         
-       describe "GET 'new'" do
+        describe "GET 'new'" do
          
          it "should be successful" do
            get :new
@@ -82,10 +82,8 @@ describe UsersController do
           end
         end
         
-      describe "success" do
-        #before(:each) do
-        #  @attr = Factory(:user)
-        #end
+        describe "success" do
+      
         before(:each) do
           @attr = {:name =>'New User', :email =>'email@example.com',
                    :password => 'foobar', :password_confirmation => 'foobar'}
@@ -105,6 +103,11 @@ describe UsersController do
         it "should have a welcome message" do
           post :create, :user => @attr
           flash[:success].should =~ /Welcome to the  Sample App!/i
+        end
+        
+        it "should sign the user in" do
+            post :create, :user => @attr
+            controller.should be_signed_in
         end
           
       end  
