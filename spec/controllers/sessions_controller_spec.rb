@@ -14,7 +14,7 @@ describe SessionsController do
         response.should have_selector('title', :content => "Sign in")
       end
     end
-<<<<<<< HEAD
+
     
     describe "POST 'create'" do 
       describe 'invalid signin' do
@@ -70,7 +70,4 @@ describe SessionsController do
     
     
 end
-=======
 
-end
->>>>>>> 1599c9c9235458e73719ad1d41c0dfac0259bb52
