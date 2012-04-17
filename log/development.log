@@ -769,3 +769,1008 @@ ActionView::Template::Error (undefined method `model_name' for Fixnum:Class):
 Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
 Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.3ms)
 Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-16 20:35:55 -0500
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (1.0ms)
+Rendered layouts/_header.html.erb (1.6ms)
+Rendered pages/home.html.erb within layouts/application (6.4ms)
+Completed   in 11ms
+
+ActionView::Template::Error (undefined method `model_name' for Fixnum:Class):
+    5:       <ul>
+    6: 	<li><%= link_to "Home", root_path %></li>
+    7: 	<% if signed_in? %>
+    8: 	     <li><%= link_to "Profile", current_user %></li>
+    9: 	<% end %>
+    10: 	<li><%= link_to "Help", help_path %></li>
+    11: 	<% if signed_in? %>
+  app/views/layouts/_header.html.erb:8:in `_app_views_layouts__header_html_erb__786622166_82130430__192807170'
+  app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb__708231190_79960680__850792239'
+
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (9.7ms)
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.5ms)
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (20.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-16 20:35:57 -0500
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (0.9ms)
+Rendered layouts/_header.html.erb (1.6ms)
+Rendered pages/home.html.erb within layouts/application (6.1ms)
+Completed   in 12ms
+
+ActionView::Template::Error (undefined method `model_name' for Fixnum:Class):
+    5:       <ul>
+    6: 	<li><%= link_to "Home", root_path %></li>
+    7: 	<% if signed_in? %>
+    8: 	     <li><%= link_to "Profile", current_user %></li>
+    9: 	<% end %>
+    10: 	<li><%= link_to "Help", help_path %></li>
+    11: 	<% if signed_in? %>
+  app/views/layouts/_header.html.erb:8:in `_app_views_layouts__header_html_erb__786622166_90916370__192807170'
+  app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb__708231190_91014330__850792239'
+
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.5ms)
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-16 20:53:16 -0500
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (0.9ms)
+Rendered layouts/_header.html.erb (1.6ms)
+Rendered pages/home.html.erb within layouts/application (6.2ms)
+Completed   in 10ms
+
+ActionView::Template::Error (undefined method `model_name' for Fixnum:Class):
+    5:       <ul>
+    6: 	<li><%= link_to "Home", root_path %></li>
+    7: 	<% if signed_in? %>
+    8: 	     <li><%= link_to "Profile", current_user %></li>
+    9: 	<% end %>
+    10: 	<li><%= link_to "Help", help_path %></li>
+    11: 	<% if signed_in? %>
+  app/views/layouts/_header.html.erb:8:in `_app_views_layouts__header_html_erb__786622166_82469330__192807170'
+  app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb__708231190_82788550__850792239'
+
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (35.2ms)
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (41.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-16 20:53:18 -0500
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (0.9ms)
+Rendered layouts/_header.html.erb (1.7ms)
+Rendered pages/home.html.erb within layouts/application (11.2ms)
+Completed   in 18ms
+
+ActionView::Template::Error (undefined method `model_name' for Fixnum:Class):
+    5:       <ul>
+    6: 	<li><%= link_to "Home", root_path %></li>
+    7: 	<% if signed_in? %>
+    8: 	     <li><%= link_to "Profile", current_user %></li>
+    9: 	<% end %>
+    10: 	<li><%= link_to "Help", help_path %></li>
+    11: 	<% if signed_in? %>
+  app/views/layouts/_header.html.erb:8:in `_app_views_layouts__header_html_erb__786622166_91711080__192807170'
+  app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb__708231190_91872330__850792239'
+
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.1ms)
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-16 20:53:43 -0500
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (4.0ms)
+Rendered layouts/_header.html.erb (1.6ms)
+Rendered pages/home.html.erb within layouts/application (9.4ms)
+Completed   in 14ms
+
+ActionView::Template::Error (undefined method `model_name' for Fixnum:Class):
+    5:       <ul>
+    6: 	<li><%= link_to "Home", root_path %></li>
+    7: 	<% if signed_in? %>
+    8: 	     <li><%= link_to "Profile", current_user %></li>
+    9: 	<% end %>
+    10: 	<li><%= link_to "Help", help_path %></li>
+    11: 	<% if signed_in? %>
+  app/views/layouts/_header.html.erb:8:in `_app_views_layouts__header_html_erb__786622166_90729480__192807170'
+  app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb__708231190_90810940__850792239'
+
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.3ms)
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-16 20:53:44 -0500
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (0.9ms)
+Rendered layouts/_header.html.erb (1.5ms)
+Rendered pages/home.html.erb within layouts/application (5.9ms)
+Completed   in 16ms
+
+ActionView::Template::Error (undefined method `model_name' for Fixnum:Class):
+    5:       <ul>
+    6: 	<li><%= link_to "Home", root_path %></li>
+    7: 	<% if signed_in? %>
+    8: 	     <li><%= link_to "Profile", current_user %></li>
+    9: 	<% end %>
+    10: 	<li><%= link_to "Help", help_path %></li>
+    11: 	<% if signed_in? %>
+  app/views/layouts/_header.html.erb:8:in `_app_views_layouts__header_html_erb__786622166_87687250__192807170'
+  app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb__708231190_88051430__850792239'
+
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (30.6ms)
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (41.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-16 20:53:44 -0500
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (0.9ms)
+Rendered layouts/_header.html.erb (1.6ms)
+Rendered pages/home.html.erb within layouts/application (6.5ms)
+Completed   in 11ms
+
+ActionView::Template::Error (undefined method `model_name' for Fixnum:Class):
+    5:       <ul>
+    6: 	<li><%= link_to "Home", root_path %></li>
+    7: 	<% if signed_in? %>
+    8: 	     <li><%= link_to "Profile", current_user %></li>
+    9: 	<% end %>
+    10: 	<li><%= link_to "Help", help_path %></li>
+    11: 	<% if signed_in? %>
+  app/views/layouts/_header.html.erb:8:in `_app_views_layouts__header_html_erb__786622166_91634080__192807170'
+  app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb__708231190_91709730__850792239'
+
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (9.8ms)
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-16 20:55:04 -0500
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (0.9ms)
+Rendered layouts/_header.html.erb (1.4ms)
+Rendered pages/home.html.erb within layouts/application (5.6ms)
+Completed   in 10ms
+
+ActionView::Template::Error (undefined method `model_name' for Fixnum:Class):
+    5:       <ul>
+    6: 	<li><%= link_to "Home", root_path %></li>
+    7: 	<% if signed_in? %>
+    8: 	     <li><%= link_to "Profile", current_user %></li>
+    9: 	<% end %>
+    10: 	<li><%= link_to "Help", help_path %></li>
+    11: 	<% if signed_in? %>
+  app/views/layouts/_header.html.erb:8:in `_app_views_layouts__header_html_erb__786622166_90424820__192807170'
+  app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb__708231190_90660850__850792239'
+
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.4ms)
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-16 20:59:30 -0500
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (1.0ms)
+Rendered layouts/_header.html.erb (1.6ms)
+Rendered pages/home.html.erb within layouts/application (6.7ms)
+Completed   in 11ms
+
+ActionView::Template::Error (undefined method `model_name' for Fixnum:Class):
+    5:       <ul>
+    6: 	<li><%= link_to "Home", root_path %></li>
+    7: 	<% if signed_in? %>
+    8: 	     <li><%= link_to "Profile", current_user %></li>
+    9: 	<% end %>
+    10: 	<li><%= link_to "Help", help_path %></li>
+    11: 	<% if signed_in? %>
+  app/views/layouts/_header.html.erb:8:in `_app_views_layouts__header_html_erb__786622166_92054230__192807170'
+  app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb__708231190_92089890__850792239'
+
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.7ms)
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-16 20:59:32 -0500
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (0.9ms)
+Rendered layouts/_header.html.erb (1.5ms)
+Rendered pages/home.html.erb within layouts/application (5.8ms)
+Completed   in 10ms
+
+ActionView::Template::Error (undefined method `model_name' for Fixnum:Class):
+    5:       <ul>
+    6: 	<li><%= link_to "Home", root_path %></li>
+    7: 	<% if signed_in? %>
+    8: 	     <li><%= link_to "Profile", current_user %></li>
+    9: 	<% end %>
+    10: 	<li><%= link_to "Help", help_path %></li>
+    11: 	<% if signed_in? %>
+  app/views/layouts/_header.html.erb:8:in `_app_views_layouts__header_html_erb__786622166_90931560__192807170'
+  app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb__708231190_91028040__850792239'
+
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.1ms)
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-16 21:01:49 -0500
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (0.9ms)
+Rendered layouts/_header.html.erb (1.8ms)
+Rendered pages/home.html.erb within layouts/application (6.1ms)
+Completed   in 10ms
+
+ActionView::Template::Error (undefined method `model_name' for Fixnum:Class):
+    5:       <ul>
+    6: 	<li><%= link_to "Home", root_path %></li>
+    7: 	<% if signed_in? %>
+    8: 	     <li><%= link_to "Profile", current_user %></li>
+    9: 	<% end %>
+    10: 	<li><%= link_to "Help", help_path %></li>
+    11: 	<% if signed_in? %>
+  app/views/layouts/_header.html.erb:8:in `_app_views_layouts__header_html_erb__786622166_84439560__192807170'
+  app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb__708231190_85101400__850792239'
+
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.4ms)
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (38.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-16 21:11:00 -0500
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (1.0ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Rendered layouts/_header.html.erb (111.0ms)
+Rendered pages/home.html.erb within layouts/application (128.9ms)
+Completed   in 138ms
+
+ActionView::Template::Error (wrong number of arguments(0 for 1)):
+    9: 	<% end %>
+    10: 	<li><%= link_to "Help", help_path %></li>
+    11: 	<% if signed_in? %>
+    12: 	    <li> <%= link_to "sign out", signout_path, method => :delete %> </li>
+    13: 	<% else %>
+    14: 	    <li><%= link_to "Sign in", signin_path %></li>
+    15: 	<% end %>
+  app/views/layouts/_header.html.erb:12:in `method'
+  app/views/layouts/_header.html.erb:12:in `_app_views_layouts__header_html_erb__786622166_91691500__192807170'
+  app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb__708231190_91761440__850792239'
+
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.3ms)
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-16 21:14:03 -0500
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (1.0ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+Rendered layouts/_header.html.erb (28.4ms)
+Rendered layouts/_footer.html.erb (0.8ms)
+Rendered pages/home.html.erb within layouts/application (39.6ms)
+Completed 200 OK in 44ms (Views: 43.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-16 23:50:15 -0500
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (6.7ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Rendered layouts/_header.html.erb (56.6ms)
+Rendered layouts/_footer.html.erb (1.4ms)
+Rendered pages/home.html.erb within layouts/application (74.2ms)
+Completed 200 OK in 82ms (Views: 81.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2012-04-16 23:50:23 -0500
+  Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+Rendered layouts/_stylesheets.html.erb (1.1ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Rendered layouts/_header.html.erb (3.4ms)
+Rendered layouts/_footer.html.erb (0.8ms)
+Rendered users/show.html.erb within layouts/application (13.7ms)
+Completed 200 OK in 43ms (Views: 17.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/signout" for 127.0.0.1 at 2012-04-16 23:50:26 -0500
+  Processing by SessionsController#destroy as HTML
+Completed   in 2ms
+
+NameError (undefined local variable or method `cookie' for #<SessionsController:0xac7563c>):
+  app/helpers/sessions_helper.rb:23:in `sign_out'
+  app/controllers/sessions_controller.rb:24:in `destroy'
+
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (9.3ms)
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-16 23:50:36 -0500
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (1.0ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+Rendered layouts/_header.html.erb (57.8ms)
+Rendered layouts/_footer.html.erb (0.8ms)
+Rendered pages/home.html.erb within layouts/application (64.8ms)
+Completed 200 OK in 75ms (Views: 74.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-16 23:50:37 -0500
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (1.5ms)
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Rendered layouts/_header.html.erb (60.1ms)
+Rendered layouts/_footer.html.erb (0.9ms)
+Rendered pages/home.html.erb within layouts/application (72.2ms)
+Completed 200 OK in 79ms (Views: 77.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-16 23:52:17 -0500
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (5.2ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+Rendered layouts/_header.html.erb (54.4ms)
+Rendered layouts/_footer.html.erb (0.8ms)
+Rendered pages/home.html.erb within layouts/application (68.0ms)
+Completed 200 OK in 79ms (Views: 78.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2012-04-16 23:52:18 -0500
+  Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (2.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Rendered layouts/_stylesheets.html.erb (0.9ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+Rendered layouts/_header.html.erb (3.4ms)
+Rendered layouts/_footer.html.erb (0.8ms)
+Rendered users/show.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 65ms (Views: 14.9ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/help" for 127.0.0.1 at 2012-04-16 23:52:20 -0500
+  Processing by PagesController#help as HTML
+Rendered layouts/_stylesheets.html.erb (0.9ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Rendered layouts/_header.html.erb (29.7ms)
+Rendered layouts/_footer.html.erb (0.8ms)
+Rendered pages/help.html.erb within layouts/application (36.2ms)
+Completed 200 OK in 43ms (Views: 42.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/signout" for 127.0.0.1 at 2012-04-16 23:52:21 -0500
+  Processing by SessionsController#destroy as HTML
+Completed   in 1ms
+
+NameError (undefined local variable or method `cookie' for #<SessionsController:0xaf86d80>):
+  app/helpers/sessions_helper.rb:23:in `sign_out'
+  app/controllers/sessions_controller.rb:24:in `destroy'
+
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.1ms)
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.1ms)
+
+
+Started GET "/help" for 127.0.0.1 at 2012-04-16 23:53:05 -0500
+  Processing by PagesController#help as HTML
+Rendered layouts/_stylesheets.html.erb (2.1ms)
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+Rendered layouts/_header.html.erb (49.2ms)
+Rendered layouts/_footer.html.erb (0.8ms)
+Rendered pages/help.html.erb within layouts/application (58.4ms)
+Completed 200 OK in 67ms (Views: 65.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-16 23:53:09 -0500
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (1.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Rendered layouts/_header.html.erb (28.2ms)
+Rendered layouts/_footer.html.erb (0.8ms)
+Rendered pages/home.html.erb within layouts/application (35.2ms)
+Completed 200 OK in 43ms (Views: 42.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2012-04-16 23:53:11 -0500
+  Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+Rendered layouts/_stylesheets.html.erb (1.0ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (0.9ms)
+Rendered users/show.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 78ms (Views: 14.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/signout" for 127.0.0.1 at 2012-04-16 23:53:18 -0500
+  Processing by SessionsController#destroy as HTML
+Completed   in 2ms
+
+NameError (undefined local variable or method `cookie' for #<SessionsController:0xadfdc84>):
+  app/helpers/sessions_helper.rb:23:in `sign_out'
+  app/controllers/sessions_controller.rb:24:in `destroy'
+
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.2ms)
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.8ms)
+
+
+Started GET "/signout" for 127.0.0.1 at 2012-04-17 00:17:06 -0500
+  Processing by SessionsController#destroy as HTML
+Completed   in 8ms
+
+NameError (undefined local variable or method `cookie' for #<SessionsController:0xabf0950>):
+  app/helpers/sessions_helper.rb:23:in `sign_out'
+  app/controllers/sessions_controller.rb:24:in `destroy'
+
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.0ms)
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.3ms)
+
+
+Started GET "/signout" for 127.0.0.1 at 2012-04-17 00:22:13 -0500
+  Processing by SessionsController#destroy as HTML
+Completed   in 6ms
+
+NameError (undefined local variable or method `cookie' for #<SessionsController:0xa7d9510>):
+  app/helpers/sessions_helper.rb:23:in `sign_out'
+  app/controllers/sessions_controller.rb:24:in `destroy'
+
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.3ms)
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (11.5ms)
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (24.3ms)
+
+
+Started GET "/signout" for 127.0.0.1 at 2012-04-17 00:22:18 -0500
+  Processing by SessionsController#destroy as HTML
+Completed   in 1ms
+
+NameError (undefined local variable or method `cookie' for #<SessionsController:0xaf23e38>):
+  app/helpers/sessions_helper.rb:23:in `sign_out'
+  app/controllers/sessions_controller.rb:24:in `destroy'
+
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (8.3ms)
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.8ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2012-04-17 00:29:12 -0500
+  Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+Rendered layouts/_stylesheets.html.erb (1.1ms)
+  [1m[36mCACHE (6.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Rendered layouts/_header.html.erb (9.2ms)
+Rendered layouts/_footer.html.erb (0.8ms)
+Rendered users/show.html.erb within layouts/application (24.8ms)
+Completed 200 OK in 86ms (Views: 31.4ms | ActiveRecord: 6.6ms)
+
+
+Started GET "/signout" for 127.0.0.1 at 2012-04-17 00:29:14 -0500
+  Processing by SessionsController#destroy as HTML
+Completed   in 3ms
+
+NameError (undefined local variable or method `cookie' for #<SessionsController:0xaf5ac58>):
+  app/helpers/sessions_helper.rb:23:in `sign_out'
+  app/controllers/sessions_controller.rb:24:in `destroy'
+
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.1ms)
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (7.4ms)
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.5ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2012-04-17 00:30:33 -0500
+  Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+Rendered layouts/_stylesheets.html.erb (1.1ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Rendered layouts/_header.html.erb (8.1ms)
+Rendered layouts/_footer.html.erb (0.8ms)
+Rendered users/show.html.erb within layouts/application (26.6ms)
+Completed 200 OK in 82ms (Views: 36.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/signout" for 127.0.0.1 at 2012-04-17 00:30:34 -0500
+  Processing by SessionsController#destroy as HTML
+Completed   in 1ms
+
+NameError (undefined local variable or method `cookie' for #<SessionsController:0xaba7570>):
+  app/helpers/sessions_helper.rb:23:in `sign_out'
+  app/controllers/sessions_controller.rb:24:in `destroy'
+
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.3ms)
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (22.6ms)
+
+
+Started GET "/signout" for 127.0.0.1 at 2012-04-17 00:32:43 -0500
+  Processing by SessionsController#destroy as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-17 00:32:43 -0500
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (1.1ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+Rendered layouts/_header.html.erb (91.9ms)
+Rendered layouts/_footer.html.erb (0.9ms)
+Rendered pages/home.html.erb within layouts/application (111.7ms)
+Completed 200 OK in 133ms (Views: 131.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/signin" for 127.0.0.1 at 2012-04-17 00:32:47 -0500
+  Processing by SessionsController#new as HTML
+Rendered layouts/_stylesheets.html.erb (1.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  [1m[36mCACHE (7.8ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+Rendered layouts/_header.html.erb (77.5ms)
+Rendered layouts/_footer.html.erb (1.0ms)
+Rendered sessions/new.html.erb within layouts/application (260.8ms)
+Completed 200 OK in 268ms (Views: 259.2ms | ActiveRecord: 8.0ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2012-04-17 00:32:54 -0500
+  Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"I7sgpiuE3/Kv7eIbTnwKFg96fGTCibFRUP6Xsff/4Jc=", "session"=>{"email"=>"user@example.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'user@example.com' LIMIT 1
+Redirected to http://localhost:3000/users/2
+Completed 302 Found in 241ms
+
+
+Started GET "/users/2" for 127.0.0.1 at 2012-04-17 00:32:54 -0500
+  Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1[0m
+Rendered layouts/_stylesheets.html.erb (0.9ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1
+Rendered layouts/_header.html.erb (9.4ms)
+Rendered layouts/_footer.html.erb (0.8ms)
+Rendered users/show.html.erb within layouts/application (20.8ms)
+Completed 200 OK in 72ms (Views: 31.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/signout" for 127.0.0.1 at 2012-04-17 00:32:57 -0500
+  Processing by SessionsController#destroy as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-17 00:32:57 -0500
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (1.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Rendered layouts/_header.html.erb (52.3ms)
+Rendered layouts/_footer.html.erb (1.1ms)
+Rendered pages/home.html.erb within layouts/application (78.4ms)
+Completed 200 OK in 90ms (Views: 89.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2012-04-17 00:33:03 -0500
+  Processing by UsersController#new as HTML
+Rendered shared/_error_messages.html.erb (0.7ms)
+Rendered layouts/_stylesheets.html.erb (1.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Rendered layouts/_header.html.erb (70.2ms)
+Rendered layouts/_footer.html.erb (0.8ms)
+Rendered users/new.html.erb within layouts/application (97.1ms)
+Completed 200 OK in 137ms (Views: 110.6ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2012-04-17 00:33:38 -0500
+  Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"I7sgpiuE3/Kv7eIbTnwKFg96fGTCibFRUP6Xsff/4Jc=", "user"=>{"name"=>"Carlos Montano", "email"=>"Jose@jose.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users"."id" FROM "users" WHERE (LOWER("users"."email") = LOWER('Jose@jose.com')) LIMIT 1[0m
+  [1m[35mAREL (0.6ms)[0m  INSERT INTO "users" ("name", "email", "created_at", "updated_at", "encrypted_password", "salt") VALUES ('Carlos Montano', 'Jose@jose.com', '2012-04-17 05:33:38.891235', '2012-04-17 05:33:38.891235', '25900931be90d55a61fb523b4eee94a3e5e45263a259749936bb198860dba75a', '7ee337585dc97dd1fc9887aca1d5a476e14ee84fb9e395619bc26bb7dd8dea54')
+Redirected to http://localhost:3000/users/3
+Completed 302 Found in 390ms
+
+
+Started GET "/users/3" for 127.0.0.1 at 2012-04-17 00:33:39 -0500
+  Processing by UsersController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1[0m
+Rendered layouts/_stylesheets.html.erb (0.9ms)
+  [1m[35mUser Load (5.7ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+Rendered layouts/_header.html.erb (8.3ms)
+Rendered layouts/_footer.html.erb (0.9ms)
+Rendered users/show.html.erb within layouts/application (42.2ms)
+Completed 200 OK in 122ms (Views: 40.8ms | ActiveRecord: 6.7ms)
+
+
+Started GET "/users/3" for 127.0.0.1 at 2012-04-17 00:33:44 -0500
+  Processing by UsersController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1
+Rendered layouts/_stylesheets.html.erb (7.2ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Rendered layouts/_header.html.erb (2.6ms)
+Rendered layouts/_footer.html.erb (0.9ms)
+Rendered users/show.html.erb within layouts/application (27.1ms)
+Completed 200 OK in 184ms (Views: 31.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/users/3" for 127.0.0.1 at 2012-04-17 00:33:52 -0500
+  Processing by UsersController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1[0m
+Rendered layouts/_stylesheets.html.erb (5.0ms)
+  [1m[35mUser Load (3.5ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+Rendered layouts/_header.html.erb (5.9ms)
+Rendered layouts/_footer.html.erb (7.5ms)
+Rendered users/show.html.erb within layouts/application (27.6ms)
+Completed 200 OK in 77ms (Views: 27.8ms | ActiveRecord: 3.7ms)
+
+
+Started GET "/users/3" for 127.0.0.1 at 2012-04-17 00:33:54 -0500
+  Processing by UsersController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mUser Load (7.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1
+Rendered layouts/_stylesheets.html.erb (1.0ms)
+  [1m[36mUser Load (10.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Rendered layouts/_header.html.erb (12.6ms)
+Rendered layouts/_footer.html.erb (0.8ms)
+Rendered users/show.html.erb within layouts/application (32.8ms)
+Completed 200 OK in 200ms (Views: 45.5ms | ActiveRecord: 17.2ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2012-04-17 00:34:03 -0500
+  Processing by PagesController#about as HTML
+Rendered layouts/_stylesheets.html.erb (0.9ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Rendered layouts/_header.html.erb (57.2ms)
+Rendered layouts/_footer.html.erb (0.8ms)
+Rendered pages/about.html.erb within layouts/application (66.9ms)
+Completed 200 OK in 78ms (Views: 77.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2012-04-17 00:34:17 -0500
+  Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Rendered layouts/_stylesheets.html.erb (1.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+Rendered layouts/_header.html.erb (10.7ms)
+Rendered layouts/_footer.html.erb (0.8ms)
+Rendered users/show.html.erb within layouts/application (26.3ms)
+Completed 200 OK in 113ms (Views: 38.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/signin" for 127.0.0.1 at 2012-04-17 00:34:25 -0500
+  Processing by SessionsController#new as HTML
+Rendered layouts/_stylesheets.html.erb (3.2ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+Rendered layouts/_header.html.erb (52.8ms)
+Rendered layouts/_footer.html.erb (0.8ms)
+Rendered sessions/new.html.erb within layouts/application (62.8ms)
+Completed 200 OK in 73ms (Views: 72.7ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2012-04-17 00:34:30 -0500
+  Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"I7sgpiuE3/Kv7eIbTnwKFg96fGTCibFRUP6Xsff/4Jc=", "session"=>{"email"=>"Ginogarcia@netzero.net", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'Ginogarcia@netzero.net' LIMIT 1
+Redirected to http://localhost:3000/users/1
+Completed 302 Found in 55ms
+
+
+Started GET "/users/1" for 127.0.0.1 at 2012-04-17 00:34:30 -0500
+  Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Rendered layouts/_stylesheets.html.erb (1.1ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+Rendered layouts/_header.html.erb (2.4ms)
+Rendered layouts/_footer.html.erb (0.8ms)
+Rendered users/show.html.erb within layouts/application (17.5ms)
+Completed 200 OK in 77ms (Views: 26.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/signout" for 127.0.0.1 at 2012-04-17 00:34:33 -0500
+  Processing by SessionsController#destroy as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-17 00:34:34 -0500
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (1.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Rendered layouts/_header.html.erb (53.1ms)
+Rendered layouts/_footer.html.erb (1.2ms)
+Rendered pages/home.html.erb within layouts/application (70.3ms)
+Completed 200 OK in 81ms (Views: 80.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/signin" for 127.0.0.1 at 2012-04-17 00:34:37 -0500
+  Processing by SessionsController#new as HTML
+Rendered layouts/_stylesheets.html.erb (4.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Rendered layouts/_header.html.erb (164.4ms)
+Rendered layouts/_footer.html.erb (0.9ms)
+Rendered sessions/new.html.erb within layouts/application (182.3ms)
+Completed 200 OK in 190ms (Views: 189.5ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2012-04-17 00:34:43 -0500
+  Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"I7sgpiuE3/Kv7eIbTnwKFg96fGTCibFRUP6Xsff/4Jc=", "session"=>{"email"=>"Jose@jose.com", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'Jose@jose.com' LIMIT 1[0m
+Redirected to http://localhost:3000/users/3
+Completed 302 Found in 53ms
+
+
+Started GET "/users/3" for 127.0.0.1 at 2012-04-17 00:34:43 -0500
+  Processing by UsersController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1
+Rendered layouts/_stylesheets.html.erb (1.1ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1[0m
+Rendered layouts/_header.html.erb (2.8ms)
+Rendered layouts/_footer.html.erb (0.9ms)
+Rendered users/show.html.erb within layouts/application (33.1ms)
+Completed 200 OK in 207ms (Views: 49.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/3" for 127.0.0.1 at 2012-04-17 02:12:01 -0500
+  Processing by UsersController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mUser Load (2.6ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1
+Rendered layouts/_stylesheets.html.erb (1.0ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1[0m
+Rendered layouts/_header.html.erb (2.6ms)
+Rendered layouts/_footer.html.erb (0.9ms)
+Rendered users/show.html.erb within layouts/application (11.3ms)
+Completed 200 OK in 129ms (Views: 15.5ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/users/3" for 127.0.0.1 at 2012-04-17 02:12:03 -0500
+  Processing by UsersController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1
+Rendered layouts/_stylesheets.html.erb (1.1ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1[0m
+Rendered layouts/_header.html.erb (2.7ms)
+Rendered layouts/_footer.html.erb (0.8ms)
+Rendered users/show.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 42ms (Views: 14.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/3" for 127.0.0.1 at 2012-04-17 02:12:04 -0500
+  Processing by UsersController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1
+Rendered layouts/_stylesheets.html.erb (1.1ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1[0m
+Rendered layouts/_header.html.erb (2.6ms)
+Rendered layouts/_footer.html.erb (1.2ms)
+Rendered users/show.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 67ms (Views: 14.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/signout" for 127.0.0.1 at 2012-04-17 02:12:08 -0500
+  Processing by SessionsController#destroy as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-17 02:12:08 -0500
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (1.0ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+Rendered layouts/_header.html.erb (52.5ms)
+Rendered layouts/_footer.html.erb (0.8ms)
+Rendered pages/home.html.erb within layouts/application (59.3ms)
+Completed 200 OK in 68ms (Views: 67.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/signin" for 127.0.0.1 at 2012-04-17 02:12:10 -0500
+  Processing by SessionsController#new as HTML
+Rendered layouts/_stylesheets.html.erb (1.0ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+Rendered layouts/_header.html.erb (24.1ms)
+Rendered layouts/_footer.html.erb (0.8ms)
+Rendered sessions/new.html.erb within layouts/application (31.8ms)
+Completed 200 OK in 36ms (Views: 35.6ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2012-04-17 02:12:15 -0500
+  Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"I7sgpiuE3/Kv7eIbTnwKFg96fGTCibFRUP6Xsff/4Jc=", "session"=>{"email"=>"Ginogarcia@netzero.net", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'Ginogarcia@netzero.net' LIMIT 1
+Redirected to http://localhost:3000/users/1
+Completed 302 Found in 73ms
+
+
+Started GET "/users/1" for 127.0.0.1 at 2012-04-17 02:12:15 -0500
+  Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Rendered layouts/_stylesheets.html.erb (1.0ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+Rendered layouts/_header.html.erb (2.5ms)
+Rendered layouts/_footer.html.erb (0.8ms)
+Rendered users/show.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 40ms (Views: 14.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2012-04-17 02:12:21 -0500
+  Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Rendered layouts/_stylesheets.html.erb (1.0ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+Rendered layouts/_header.html.erb (2.6ms)
+Rendered layouts/_footer.html.erb (0.8ms)
+Rendered users/show.html.erb within layouts/application (10.5ms)
+Completed 200 OK in 66ms (Views: 14.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/signout" for 127.0.0.1 at 2012-04-17 02:12:22 -0500
+  Processing by SessionsController#destroy as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-17 02:12:22 -0500
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (0.9ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Rendered layouts/_header.html.erb (24.3ms)
+Rendered layouts/_footer.html.erb (0.8ms)
+Rendered pages/home.html.erb within layouts/application (30.8ms)
+Completed 200 OK in 35ms (Views: 34.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/signin" for 127.0.0.1 at 2012-04-17 02:16:49 -0500
+  Processing by SessionsController#new as HTML
+Rendered layouts/_stylesheets.html.erb (1.1ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Rendered layouts/_header.html.erb (27.3ms)
+Rendered layouts/_footer.html.erb (0.8ms)
+Rendered sessions/new.html.erb within layouts/application (40.5ms)
+Completed 200 OK in 45ms (Views: 44.0ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2012-04-17 02:16:53 -0500
+  Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"I7sgpiuE3/Kv7eIbTnwKFg96fGTCibFRUP6Xsff/4Jc=", "session"=>{"email"=>"Ginogarcia@netzero.net", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'Ginogarcia@netzero.net' LIMIT 1[0m
+Redirected to http://localhost:3000/users/1
+Completed 302 Found in 51ms
+
+
+Started GET "/users/1" for 127.0.0.1 at 2012-04-17 02:16:53 -0500
+  Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+Rendered layouts/_stylesheets.html.erb (0.9ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Rendered layouts/_header.html.erb (3.0ms)
+Rendered layouts/_footer.html.erb (1.0ms)
+Rendered users/show.html.erb within layouts/application (11.2ms)
+Completed 200 OK in 54ms (Views: 15.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-04-17 02:17:04 -0500
+  Processing by PagesController#contact as HTML
+Rendered layouts/_stylesheets.html.erb (0.9ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+Rendered layouts/_header.html.erb (57.9ms)
+Rendered layouts/_footer.html.erb (0.8ms)
+Rendered pages/contact.html.erb within layouts/application (64.5ms)
+Completed 200 OK in 69ms (Views: 68.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2012-04-17 02:17:08 -0500
+  Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Rendered layouts/_stylesheets.html.erb (1.1ms)
+  [1m[35mCACHE (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+Rendered layouts/_header.html.erb (2.7ms)
+Rendered layouts/_footer.html.erb (0.8ms)
+Rendered users/show.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 35ms (Views: 14.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/signout" for 127.0.0.1 at 2012-04-17 02:17:12 -0500
+  Processing by SessionsController#destroy as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-17 02:17:12 -0500
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (1.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Rendered layouts/_header.html.erb (27.3ms)
+Rendered layouts/_footer.html.erb (0.8ms)
+Rendered pages/home.html.erb within layouts/application (70.1ms)
+Completed 200 OK in 85ms (Views: 84.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/help" for 127.0.0.1 at 2012-04-17 02:18:09 -0500
+  Processing by PagesController#help as HTML
+Rendered layouts/_stylesheets.html.erb (1.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Rendered layouts/_header.html.erb (56.0ms)
+Rendered layouts/_footer.html.erb (0.9ms)
+Rendered pages/help.html.erb within layouts/application (62.5ms)
+Completed 200 OK in 67ms (Views: 66.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-17 02:18:11 -0500
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (0.9ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  [1m[35mCACHE (2.6ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Rendered layouts/_header.html.erb (26.7ms)
+Rendered layouts/_footer.html.erb (0.9ms)
+Rendered pages/home.html.erb within layouts/application (33.6ms)
+Completed 200 OK in 39ms (Views: 35.8ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/signin" for 127.0.0.1 at 2012-04-17 02:18:14 -0500
+  Processing by SessionsController#new as HTML
+Rendered layouts/_stylesheets.html.erb (0.9ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Rendered layouts/_header.html.erb (53.1ms)
+Rendered layouts/_footer.html.erb (0.9ms)
+Rendered sessions/new.html.erb within layouts/application (61.0ms)
+Completed 200 OK in 65ms (Views: 64.7ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2012-04-17 02:18:22 -0500
+  Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"I7sgpiuE3/Kv7eIbTnwKFg96fGTCibFRUP6Xsff/4Jc=", "session"=>{"email"=>"Ginogarcia@netzero.net", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'Ginogarcia@netzero.net' LIMIT 1[0m
+Rendered layouts/_stylesheets.html.erb (0.9ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+Rendered layouts/_header.html.erb (2.5ms)
+Rendered layouts/_footer.html.erb (0.8ms)
+Rendered sessions/new.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 37ms (Views: 14.2ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2012-04-17 02:18:27 -0500
+  Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"I7sgpiuE3/Kv7eIbTnwKFg96fGTCibFRUP6Xsff/4Jc=", "session"=>{"email"=>"", "password"=>"[FILTERED]"}, "commit"=>"Sign in"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = '' LIMIT 1
+Rendered layouts/_stylesheets.html.erb (1.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Rendered layouts/_header.html.erb (2.8ms)
+Rendered layouts/_footer.html.erb (0.8ms)
+Rendered sessions/new.html.erb within layouts/application (11.2ms)
+Completed 200 OK in 63ms (Views: 14.9ms | ActiveRecord: 0.4ms)
