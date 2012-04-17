@@ -12,6 +12,16 @@
 
 ActiveRecord::Schema.define(:version => 20120405172930) do
 
+<<<<<<< HEAD
+=======
+  create_table "bookmarks", :force => true do |t|
+    t.string   "name"
+    t.string   "url"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+>>>>>>> 1599c9c9235458e73719ad1d41c0dfac0259bb52
   create_table "users", :force => true do |t|
     t.string   "name"
     t.string   "email"

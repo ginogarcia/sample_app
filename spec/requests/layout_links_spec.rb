@@ -47,6 +47,7 @@ describe "LayoutLinks" do
     response.should have_selector('a[href="/"]>img')    
   end
   
+<<<<<<< HEAD
   describe "when not signed in" do
     it "should have a signin link" do
       visit root_path
@@ -79,3 +80,6 @@ describe "LayoutLinks" do
 end
   
   
+=======
+end
+>>>>>>> 1599c9c9235458e73719ad1d41c0dfac0259bb52

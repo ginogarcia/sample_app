@@ -1,4 +1,5 @@
 module SessionsHelper
+<<<<<<< HEAD
   
   def sign_in(user)
     cookies.permanent.signed[:remember_token] = [user.id, user.salt]
@@ -30,4 +31,6 @@ module SessionsHelper
     def remember_token
       cookies.signed[:remember_token] || [nil, nil]
     end
+=======
+>>>>>>> 1599c9c9235458e73719ad1d41c0dfac0259bb52
 end

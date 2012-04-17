@@ -4,6 +4,7 @@ class SessionsController < ApplicationController
   end
   
   def create
+<<<<<<< HEAD
     user = User.authenticate(params[:session][:email],
                              params[:session][:password])
     
@@ -22,6 +23,11 @@ class SessionsController < ApplicationController
   def destroy
     sign_out
     redirect_to rooth_path
+=======
+  end
+  
+  def destroy
+>>>>>>> 1599c9c9235458e73719ad1d41c0dfac0259bb52
   end
 
 end
