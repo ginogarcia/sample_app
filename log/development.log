@@ -671,3 +671,101 @@ ActionView::Template::Error (undefined method `model_name' for Fixnum:Class):
 Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.6ms)
 Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.0ms)
 Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.5ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2012-04-16 19:29:05 -0500
+  Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mSQL (1.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+Rendered layouts/_stylesheets.html.erb (1.0ms)
+Rendered layouts/_header.html.erb (44.2ms)
+Rendered users/show.html.erb within layouts/application (49.7ms)
+Completed   in 156ms
+
+ActionView::Template::Error (undefined method `model_name' for Fixnum:Class):
+    4:       <ul>
+    5: 	<li><%= link_to "Home", root_path %></li>
+    6: 	<% if signed_in? %>
+    7: 	     <li><%= link_to "Profile", current_user %></li>
+    8: 	<% end %>
+    9: 	<li><%= link_to "Help", help_path %></li>
+    10: 	<% if signed_in? %>
+  app/views/layouts/_header.html.erb:7:in `_app_views_layouts__header_html_erb__786622166_84744900__192807170'
+  app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb__708231190_87103790__850792239'
+
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.7ms)
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-16 19:29:12 -0500
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (1.0ms)
+Rendered layouts/_header.html.erb (1.5ms)
+Rendered pages/home.html.erb within layouts/application (6.1ms)
+Completed   in 13ms
+
+ActionView::Template::Error (undefined method `model_name' for Fixnum:Class):
+    4:       <ul>
+    5: 	<li><%= link_to "Home", root_path %></li>
+    6: 	<% if signed_in? %>
+    7: 	     <li><%= link_to "Profile", current_user %></li>
+    8: 	<% end %>
+    9: 	<li><%= link_to "Help", help_path %></li>
+    10: 	<% if signed_in? %>
+  app/views/layouts/_header.html.erb:7:in `_app_views_layouts__header_html_erb__786622166_78906430__192807170'
+  app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb__708231190_82133360__850792239'
+
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-16 19:29:23 -0500
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (1.0ms)
+Rendered layouts/_header.html.erb (1.5ms)
+Rendered pages/home.html.erb within layouts/application (5.8ms)
+Completed   in 10ms
+
+ActionView::Template::Error (undefined method `model_name' for Fixnum:Class):
+    4:       <ul>
+    5: 	<li><%= link_to "Home", root_path %></li>
+    6: 	<% if signed_in? %>
+    7: 	     <li><%= link_to "Profile", current_user %></li>
+    8: 	<% end %>
+    9: 	<li><%= link_to "Help", help_path %></li>
+    10: 	<% if signed_in? %>
+  app/views/layouts/_header.html.erb:7:in `_app_views_layouts__header_html_erb__786622166_91942780__192807170'
+  app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb__708231190_92055690__850792239'
+
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.2ms)
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-16 19:44:52 -0500
+  Processing by PagesController#home as HTML
+Rendered layouts/_stylesheets.html.erb (4.5ms)
+Rendered layouts/_header.html.erb (2.0ms)
+Rendered pages/home.html.erb within layouts/application (11.0ms)
+Completed   in 16ms
+
+ActionView::Template::Error (undefined method `model_name' for Fixnum:Class):
+    4:       <ul>
+    5: 	<li><%= link_to "Home", root_path %></li>
+    6: 	<% if signed_in? %>
+    7: 	     <li><%= link_to "Profile", current_user %></li>
+    8: 	<% end %>
+    9: 	<li><%= link_to "Help", help_path %></li>
+    10: 	<% if signed_in? %>
+  app/views/layouts/_header.html.erb:7:in `_app_views_layouts__header_html_erb__786622166_87683690__192807170'
+  app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb__708231190_88035000__850792239'
+
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.3ms)
+Rendered /home/student/.rvm/gems/ruby-1.9.2-p290@rails3tutorial/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.9ms)
